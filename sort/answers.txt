@@ -1,0 +1,61 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Based on the below data,
+    1. this sort takes more time to sort in case of reversed file and very less time for sorted file
+        i.e., for bubble sort O(n) = n2 or n-square(worst case) and omega(n) = n(best case)
+        the only sorting technique to take very less time for sorted data and more time for reversed data
+        i.e., Bubble Sort
+    2. As per the main video's last graphical representation, bubble Sort take more time than selection sort in case of random/reversed file.
+
+time taken for reversed5000: 0m0.077s
+time taken for sorted5000: 0m0.029s
+time taken for random5000: 0m0.068s
+
+time taken for reversed10000: 0m0.319s
+time taken for sorted10000: 0m0.094s
+time taken for random10000: 0m0.226s
+
+time taken for reversed50000: 0m5.226s
+time taken for sorted50000: 0m0.765s
+time taken for random50000: 0m5.960s
+
+sort2 uses: Merge Sort
+
+How do you know?: Based on the below data,
+    1. this sort take lesser time compared to sort1 and sort3
+    2. this sort takes almost same amount of time to sort reversed file and sorted file data.
+        i.e., for merge sort O(n) = nlogn(worst case) and omega(n) = nlogn(best case)
+        so Its Merge Sort
+
+time taken for reversed5000: 0m0.037s
+time taken for sorted5000: 0m0.036s
+time taken for random5000: 0m0.034s
+
+time taken for reversed10000: 0m0.125s
+time taken for sorted10000: 0m0.067s
+time taken for random10000: 0m0.061s
+
+time taken for reversed50000: 0m0.545s
+time taken for sorted50000: 0m0.988s
+time taken for random50000: 0m0.602s
+
+sort3 uses: Selection Sort
+
+How do you know?: Based on the below data,
+    1. this sort takes almost same amount of time to sort the sorted file when compared to reversed file
+       so it should be either merge or selection Sort
+    2. this sort take more time compared to sort2(merge sort)
+        i.e., for selection Sort O(n) = n2 or n-square(worst case) and omega(n) = n2 or n-square(best case)
+    so we can conclude the its Selection Sort
+
+time taken for reversed5000: 0m0.050s
+time taken for sorted5000: 0m0.047s
+time taken for random5000: 0m0.049s
+
+time taken for reversed10000: 0m0.137s
+time taken for sorted10000: 0m0.230s
+time taken for random10000: 0m0.133s
+
+time taken for reversed50000: 0m2.607s
+time taken for sorted50000: 0m2.458s
+time taken for random50000: 0m2.482s

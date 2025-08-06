@@ -1,0 +1,7 @@
+The audio aura of the listener according to songs.db is sad/angry/energetic.
+It has low valence value, high energy and danceability value so he listens to more sad rock songs or sad pop songs.
+
+The better way I would propose is
+ - by ordering the top 100 songs by maximum no of times the songs are played(order by no of times played in descending order)
+ - then analyze the enery, valence and danceability  (i.e., ignoring least times played songs)
+ - determining the arists of those most palyed songs.
