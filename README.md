@@ -1,2 +1,2 @@
-# myharvardcourseassignments
-My CS50 Harvard Course Assignments
+# mycourseassignments
+My Python, C and MySQL Course Assignments
